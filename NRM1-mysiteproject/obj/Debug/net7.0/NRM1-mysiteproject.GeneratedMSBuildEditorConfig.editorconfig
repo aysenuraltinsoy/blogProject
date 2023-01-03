@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = NRM1_mysiteproject
+build_property.RootNamespace = NRM1_mysiteproject
+build_property.ProjectDir = C:\Users\aalti\Desktop\BilgeAdam\mvc\NRM1-mysiteproject\NRM1-mysiteproject\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\aalti\Desktop\BilgeAdam\mvc\NRM1-mysiteproject\NRM1-mysiteproject
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Hakkimdas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFra2ltZGFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Hakkimdas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFra2ltZGFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Hakkimdas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFra2ltZGFzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Hakkimdas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFra2ltZGFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Hakkimdas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFra2ltZGFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Security/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdXJpdHlcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Shared/_About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Shared/_Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Shared/_LayoutMySite.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRNeVNpdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Shared/_NavBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZCYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Shared/_Portfolio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qb3J0Zm9saW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Shared/_SiteHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaXRlSGVhZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Site/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4x4fwty7rb
