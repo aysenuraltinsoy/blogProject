@@ -22,6 +22,35 @@ namespace NRM1mysiteproject.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("NRM1_mysiteproject.Models.Entities.About", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<string>("Header")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Text")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("TextDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("TextPic")
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("Abouts");
+                });
+
             modelBuilder.Entity("NRM1_mysiteproject.Models.Entities.AdminUser", b =>
                 {
                     b.Property<int>("UserID")
@@ -30,12 +59,12 @@ namespace NRM1mysiteproject.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserID"));
 
-                    b.Property<string>("KullaniciAdi")
+                    b.Property<string>("Password")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.Property<string>("Sifre")
+                    b.Property<string>("UserName")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
@@ -45,96 +74,70 @@ namespace NRM1mysiteproject.Migrations
                     b.ToTable("AdminUsers");
                 });
 
-            modelBuilder.Entity("NRM1_mysiteproject.Models.Entities.Hakkimda", b =>
+            modelBuilder.Entity("NRM1_mysiteproject.Models.Entities.Contact", b =>
                 {
-                    b.Property<int>("ID")
+                    b.Property<int>("ContactID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ContactID"));
 
-                    b.Property<string>("Baslik")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
-                    b.Property<string>("Yazi")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("YaziFoto")
+                    b.Property<string>("Email")
                         .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
-                    b.Property<DateTime>("YaziTarih")
+                    b.Property<string>("Firstname")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Lastname")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ContactID");
+
+                    b.ToTable("Contacts");
+                });
+
+            modelBuilder.Entity("NRM1_mysiteproject.Models.Entities.Project", b =>
+                {
+                    b.Property<int>("ProjectID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProjectID"));
+
+                    b.Property<DateTime>("ProjectDate")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("ID");
-
-                    b.ToTable("Hakkimdas");
-                });
-
-            modelBuilder.Entity("NRM1_mysiteproject.Models.Entities.Iletisim", b =>
-                {
-                    b.Property<int>("IletisimID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IletisimID"));
-
-                    b.Property<string>("Ad")
+                    b.Property<string>("ProjectDescription")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Eposta")
+                    b.Property<string>("ProjectInfo")
                         .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
-                    b.Property<string>("Mesaj")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Soyad")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.HasKey("IletisimID");
-
-                    b.ToTable("Iletisims");
-                });
-
-            modelBuilder.Entity("NRM1_mysiteproject.Models.Entities.Projeler", b =>
-                {
-                    b.Property<int>("ProjeID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProjeID"));
-
-                    b.Property<string>("ProjeAciklamasi")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ProjeAdi")
+                    b.Property<string>("ProjectName")
                         .IsRequired()
                         .HasMaxLength(150)
                         .HasColumnType("nvarchar(150)");
 
-                    b.Property<string>("ProjeFoto")
-                        .IsRequired()
-                        .HasMaxLength(155)
-                        .HasColumnType("nvarchar(155)");
+                    b.Property<string>("ProjectPic")
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
 
-                    b.Property<DateTime>("ProjeTarihi")
-                        .HasColumnType("datetime2");
+                    b.HasKey("ProjectID");
 
-                    b.HasKey("ProjeID");
-
-                    b.ToTable("Projelers");
+                    b.ToTable("Projects");
                 });
 #pragma warning restore 612, 618
         }

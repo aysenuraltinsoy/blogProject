@@ -16,28 +16,36 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\aalti\Desktop\BilgeAdam\mvc\NRM1-mysiteproject\NRM1-mysiteproject
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Abouts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Abouts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Abouts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Abouts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Abouts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Hakkimdas/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFra2ltZGFzXENyZWF0ZS5jc2h0bWw=
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Contacts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Hakkimdas/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFra2ltZGFzXERlbGV0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Hakkimdas/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFra2ltZGFzXERldGFpbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Hakkimdas/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFra2ltZGFzXEVkaXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Hakkimdas/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFra2ltZGFzXEluZGV4LmNzaHRtbA==
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Contacts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Home/Index.cshtml]
@@ -46,6 +54,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Projects/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Projects/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Projects/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Projects/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Projects/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/aalti/Desktop/BilgeAdam/mvc/NRM1-mysiteproject/NRM1-mysiteproject/Views/Security/Login.cshtml]
