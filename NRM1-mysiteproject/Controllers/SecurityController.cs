@@ -20,12 +20,12 @@ namespace NRM1_mysiteproject.Controllers
         [HttpPost]
         public IActionResult login(AdminUser admin) 
         {
-            var data=db.AdminUsers.FirstOrDefault(x=>x.KullaniciAdi==admin.KullaniciAdi && x.Sifre==admin.Sifre);
+            var data=db.AdminUsers.FirstOrDefault(x=>x.UserName==admin.UserName && x.Password==admin.Password);
             if (data!=null)
             {
                 var claims = new List<Claim>
                 {
-                    new Claim(ClaimTypes.Name,admin.KullaniciAdi)
+                    new Claim(ClaimTypes.Name,admin.UserName)
                 };
                 var userIdentity=new ClaimsIdentity(claims,"Security");
                 ClaimsPrincipal principle=new ClaimsPrincipal(userIdentity);

@@ -18,9 +18,9 @@ namespace NRM1_mysiteproject.Models.Context
         {
             optionsBuilder.UseSqlServer("Server=DESKTOP-ORUQO20;Database=nrm1MySite;Trusted_Connection=True;TrustServerCertificate=True;");
         }
-        public DbSet<Hakkimda> Hakkimdas { get; set; }
-        public DbSet<Iletisim> Iletisims { get; set; }
-        public DbSet<Projeler> Projelers { get; set; }
+        public DbSet<About> Abouts { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
+        public DbSet<Project> Projects { get; set; }
         public DbSet<AdminUser> AdminUsers { get; set; }
     }
 }

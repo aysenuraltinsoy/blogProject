@@ -7,8 +7,8 @@ namespace NRM1_mysiteproject.Models.Entities
         [Key]
         public int UserID { get; set; }
         [MaxLength(50)]
-        public string KullaniciAdi { get; set; }
+        public string UserName { get; set; }
         [MaxLength(50)]
-        public string Sifre { get; set; }
+        public string Password { get; set; }
     }
 }

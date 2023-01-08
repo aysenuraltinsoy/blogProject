@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NRM1-mysiteproject.props" />
+</Project>
